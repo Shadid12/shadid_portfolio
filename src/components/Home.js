@@ -3,6 +3,7 @@ import './Home.css';
 import $ from 'jquery';
 import Card from './Card';
 import SocialIcons from './SocialIcons';
+import Burger from './Burger';
 
 class Home extends Component{
     
@@ -19,6 +20,7 @@ class Home extends Component{
             	<Card />
             </div>
             	<SocialIcons />
+            	<Burger />
             </div>
         );
     }

@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
 
 body {
-  max-width: 15em;
   margin-left: auto;
   margin-right: auto;
   padding: 2em;
@@ -10,6 +9,10 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   line-height: 1;
+}
+
+.container {
+  max-width: 400px;
 }
 
 .profile-img {
