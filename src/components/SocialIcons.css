@@ -1,0 +1,138 @@
+/*=====================*/
+.social-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: 10px auto;
+}
+.social-nav li {
+  display: inline-block;
+}
+.social-nav a {
+  display: inline-block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 48px;
+  background: #000;
+  position: relative;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.model-9 li {
+  margin: 0 10px;
+}
+.model-9 a {
+  color: #fff;
+  overflow: hidden;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.model-9 a:hover {
+  background: #fff;
+}
+.model-9 a:hover .fa {
+  -moz-animation: 0.4s icon-move linear 0s;
+  -webkit-animation: 0.4s icon-move linear 0s;
+  animation: 0.4s icon-move linear 0s;
+}
+.model-9 .linkedinA {
+  background: #158aea;
+}
+.model-9 .linkedinA:hover {
+  color: #00ACED;
+}
+.model-9 .gitHub {
+  background: #7d30f2;
+}
+.model-9 .gitHub:hover {
+  color: #3B579D;
+}
+.model-9 .google-plus {
+  background: #DD4A3A;
+}
+.model-9 .google-plus:hover {
+  color: #DD4A3A;
+}
+.model-9 .linkedin {
+  background: #007BB6;
+}
+.model-9 .linkedin:hover {
+  color: #007BB6;
+}
+.model-9 .pinterest {
+  background: #CB2026;
+}
+.model-9 .pinterest:hover {
+  color: #CB2026;
+}
+.model-9 .medium{
+    color: #21bc33;
+}
+.modal-9 .medium{
+    background: #21bc33;
+}
+/*====== Model-9 Animation ========*/
+@-moz-keyframes icon-move {
+  49% {
+    -moz-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes icon-move {
+  49% {
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes icon-move {
+  49% {
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}

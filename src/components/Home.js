@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css';
 import $ from 'jquery';
-import Card from './Card'
+import Card from './Card';
+import SocialIcons from './SocialIcons';
 
 class Home extends Component{
     
@@ -13,8 +14,11 @@ class Home extends Component{
     
     render(){
         return(
+        	<div>
             <div className="container">
             	<Card />
+            </div>
+            	<SocialIcons />
             </div>
         );
     }
