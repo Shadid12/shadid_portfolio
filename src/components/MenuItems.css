@@ -1,0 +1,23 @@
+.menu-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.menu-nav li {
+  display: inline-block;
+}
+.menu-nav a {
+
+}
+
+.model-x li {
+  margin: 0 30px;
+}
+.model-x a {
+  
+}
+
+.aimg{
+  height: 40px;
+  width: 40px;
+}

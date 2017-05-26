@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Burger.css';
 import $ from 'jquery';
+import MenuItems from './MenuItems';
 
 class Burger extends Component{
     constructor(props) {
@@ -23,7 +24,7 @@ class Burger extends Component{
     
     render(){
         return(
-
+<div>
 <div id="hamburger" className="hamburglar is-closed" onClick={this.handleClick}>
 
     <div className="burger-icon">
@@ -50,9 +51,15 @@ class Burger extends Component{
         <div className="path-rotation"></div>
       </div>
     </div>
-      
+    
 </div>
-
+{
+    !this.state.isClosed ?
+        <MenuItems />
+    :
+    null
+}
+</div>
 
 
         );
