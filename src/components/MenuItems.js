@@ -5,6 +5,10 @@ import animate from 'animate.css';
 
 class MenuItems extends Component{
     
+    componentDidMount(){
+        $(".menu-nav").addClass("animated bounceIn");
+    }
+    
     render(){
         return(
             <ul className="menu-nav model-x">
