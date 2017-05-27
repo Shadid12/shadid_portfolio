@@ -120,3 +120,7 @@
 .card:nth-of-type(4) .card-image {
   background-image: url("https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2203790/362_chasing_dreams_1x.png");
 }
+
+#title{
+  color: #ccc;
+}
