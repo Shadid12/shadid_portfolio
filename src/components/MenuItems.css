@@ -7,7 +7,7 @@
   display: inline-block;
 }
 .menu-nav a {
-
+  cursor: pointer;
 }
 
 .model-x li {

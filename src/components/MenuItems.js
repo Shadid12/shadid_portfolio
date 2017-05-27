@@ -14,7 +14,8 @@ class MenuItems extends Component{
             <ul className="menu-nav model-x">
                 <li><a 
                         onMouseOver={ () => { $("#a").addClass("animated jello") } }
-                        onMouseLeave={ () => { $("#a").removeClass("animated jello") } }>
+                        onMouseLeave={ () => { $("#a").removeClass("animated jello") } }
+                        href="/#/port">
                     <img className="aimg" src="http://svgshare.com/i/1gZ.svg" id="a" />
                     <br />My Portfolio</a></li>
                 <li><a 
