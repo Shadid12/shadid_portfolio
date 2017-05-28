@@ -27,6 +27,9 @@ class CoolButton extends Component {
         if(val.animation == 'forward'){
             this.fwrd(val.id);
         }
+        if(val.link){
+        	 window.open(val.link , 'name'); 
+        }
     }
     
     
