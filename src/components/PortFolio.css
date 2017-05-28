@@ -112,10 +112,10 @@
   transform: scaleY(1);
 }
 .card:nth-of-type(2) .card-image {
-  background-image: url("https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2164720/337_writing_blog_post_1x.png");
+  background-image: url("https://static1.squarespace.com/static/52f320b5e4b0b5c2c646cfbe/5344310fe4b00e9f7df247d6/556fbba3e4b023704a86fd65/1433385899693/Space+Illustration.jpg?format=1000w");
 }
 .card:nth-of-type(3) .card-image {
-  background-image: url("https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2377046/kaylo_ren_lighsaber_800x600_1x.png");
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/87/0d/30/870d30e1011ec421152026424ee26a76.jpg");
 }
 .card:nth-of-type(4) .card-image {
   background-image: url("https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2203790/362_chasing_dreams_1x.png");
