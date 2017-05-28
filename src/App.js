@@ -5,6 +5,7 @@ import './App.css';
 
 import Home from './components/Home';
 import PortFolio from './components/PortFolio';
+import About from './components/About';
 
 // routes
 import { Route, Router, IndexRoute, hashHistory }  from 'react-router';
@@ -17,6 +18,8 @@ class App extends Component {
           <Route path="/" component={Home}>
           </Route>
           <Route path="/port" component={PortFolio}>
+          </Route>
+          <Route path="/about" component={About}>
           </Route>
         </Router>
       </div>

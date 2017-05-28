@@ -20,7 +20,8 @@ class MenuItems extends Component{
                     <br />My Portfolio</a></li>
                 <li><a 
                         onMouseOver={ () => { $("#b").addClass("animated jello") } }
-                        onMouseLeave={ () => { $("#b").removeClass("animated jello") } }>
+                        onMouseLeave={ () => { $("#b").removeClass("animated jello") } }
+                        href="/#/about">
                     <img className="aimg" src="http://svgshare.com/i/1iM.svg" id="b" />
                     <br />About Me</a></li>
                 <li><a 
