@@ -8,8 +8,10 @@
     "mo-js": "^0.288.1",
     "parallax-js": "git+https://github.com/wagerfield/parallax.git",
     "react": "^15.5.4",
+    "react-burger-menu": "^2.0.2",
     "react-dom": "^15.5.4",
-    "react-router": "^2.8.1"
+    "react-router": "^2.8.1",
+    "react-sticky": "^6.0.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.6"

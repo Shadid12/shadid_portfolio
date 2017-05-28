@@ -1,25 +1,54 @@
 import React, { Component } from 'react';
-import './About.css'
+import $ from 'jquery';
+
+//CSS
+import './About.css';
+
+// Componennts
+
 
 class About extends Component{
     
-    
     componentDidMount(){
-
-
-
-
-
+        $(".menu-link").click(function(e) {
+          e.preventDefault();
+          $(".menu").toggleClass("open");
+          $(".menu-overlay").toggleClass("open");
+        });
     }
     
     
     render(){
         return(
+<div>
+
+
+  <div className="menu" >
+    <span className="menu-circle"></span>
+    <a href="#" className="menu-link">
+      <span className="menu-icon">
+        <span className="menu-line menu-line-1"></span>
+        <span className="menu-line menu-line-2"></span>
+        <span className="menu-line menu-line-3"></span>
+      </span>
+    </a>
+  </div>
+
+  <div className="menu-overlay">
+    <a href="/">Home</a>
+    <a href="/#/port">Portfolio</a>
+    <a onClick={ (e) =>  { 
+           e.preventDefault(); 
+           $(".menu").toggleClass("open");
+           $(".menu-overlay").toggleClass("open");
+      } }><img src="http://svgshare.com/i/1kJ.svg" id="backkme"/><br /></a>
+  </div>
+
 <div id="parallax-world-of-ugg">
-  
+
 <section>
   <div className="title">
-    <h3>Everything About</h3>
+    <h3>About</h3>
     <h1>ME</h1>
   </div>
 </section>
@@ -29,7 +58,6 @@ class About extends Component{
       <h2>Seeking Freelance Work</h2>
     </div>
 </section>
-
 <section>
   <div className="block">
     <p><span className="first-character sc">I</span> am currently seeking freelance work</p>
@@ -93,13 +121,7 @@ class About extends Component{
         </ul>
     </p>
     <p className="margin-top-10">
-    over the Rockies and in Chicago. In 2000, UGG Sheepskin boots were first 
-    featured on Oprah's Favorite Things® and Oprah emphatically declared that 
-    she "LOOOOOVES her UGG boots." From that point on, the world began to notice.
-    Brian Smith landed in Southern California with a bag of sheepskin boots and hope. 
-    He fell in love with the sheepskin experience and was convinced the world would one 
-    day share this love. The beaches of Southern California had long been an epicenter of 
-    a relaxed, casual lifestyle, a lifestyle that Brian felt was a perfect fit for his 
+     a lifestyle that Brian felt was a perfect fit for his 
     brand. So he founded the UGG brand, began selling his sheepskin boots and they were 
     an immediate sensation. By the mid 1980's,</p>
   </div>
@@ -127,14 +149,34 @@ class About extends Component{
 
 <section>
   <div className="block">
-    <p><span className="first-character atw">W</span>hen the New York fashion community notices your brand, the world soon follows. The widespread love for UGG extended to Europe in the mid-2000's along with the stylish casual movement and demand for premium casual fashion. UGG boots and shoes were now seen walking the streets of London, Paris and Amsterdam with regularity. To meet the rising demand from new fans, UGG opened flagship stores in the UK and an additional location in Moscow. As the love spread farther East, concept stores were opened in Beijing, Shanghai and Tokyo. UGG Australia is now an international brand that is loved by all. This love is a result of a magical combination of the amazing functional benefits of sheepskin and the heightened emotional feeling you get when you slip them on your feet. In short, you just feel better all over when you wear UGG boots, slippers, and shoes.</p>
+    <p><span className="first-character atw">W</span>hen the New York fashion community 
+    notices your brand, the world soon follows. The widespread love for UGG extended to
+    Europe in the mid-2000's along with the stylish casual movement and demand for premium
+    casual fashion. UGG boots and shoes were now seen walking the streets of London, Paris and 
+    Amsterdam with regularity. To meet the rising demand from new fans, UGG opened flagship 
+    stores in the UK and an additional location in Moscow. As the love spread farther East, 
+    concept stores were opened in Beijing, Shanghai and Tokyo. UGG Australia is now an 
+    international brand that is loved by all. This love is a result of a magical combination of the amazing
+    functional benefits of sheepskin and the heightened 
+    emotional feeling you get when you slip them on your feet. In short, you just feel better all over 
+    when you wear UGG boots, slippers, and shoes.
+    To meet the rising demand from new fans, UGG opened flagship 
+    stores in the UK and an additional location in Moscow. As the love spread farther East, 
+    concept stores were opened in Beijing, Shanghai and Tokyo. UGG Australia is now an 
+    international brand that is loved by all. This love is a result of a magical combination of the amazing
+    functional benefits of sheepskin and the heightened 
+    emotional feeling you get when you slip them on your feet. In short, you just feel better all over 
+    when you wear UGG boots, slippers, and shoes.</p>
     <p className="line-break margin-top-10"></p>
     <p className="margin-top-10">In 2011, UGG will go back to its roots and focus on bringing the active men that brought the brand to life back with new styles allowing them to love the brand again as well. Partnering with Super Bowl champion and NFL MVP Tom Brady, UGG will invite even more men to feel the love the rest of the world knows so well. UGG will also step into the world of high fashion with UGG Collection. The UGG Collection fuses the timeless craft of Italian shoemaking with the reliable magic of sheepskin, bringing the luxurious feel of UGG to high end fashion. As the love for UGG continues to spread across the world, we have continued to offer new and unexpected ways to experience the brand. The UGG journey continues on and the love for UGG continues to spread.</p>
   </div>
 </section>
-  
+
+
 </div>
-        )
+</div>
+
+        );
     }
 }
 
