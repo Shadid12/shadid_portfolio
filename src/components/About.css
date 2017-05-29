@@ -58,15 +58,13 @@
 }
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
-  
-
 }
 
 /*Links*/
 .menu {
   position: fixed;
   top: 5px;
-  left: 10px;
+  left: 0px;
   height: 46px;
 	width: 46px;
 }

@@ -41,7 +41,9 @@ class About extends Component{
            e.preventDefault(); 
            $(".menu").toggleClass("open");
            $(".menu-overlay").toggleClass("open");
-      } }><img src="http://svgshare.com/i/1kJ.svg" id="backkme"/><br /></a>
+      } }
+      style={ { 'cursor': 'pointer', 'text-decoration-line' : 'underline'} }
+      >Back</a>
   </div>
 
 <div id="parallax-world-of-ugg">

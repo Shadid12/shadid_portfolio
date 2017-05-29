@@ -21,6 +21,7 @@ class PortFolio extends Component{
     
     componentDidMount(){
       
+      
       setTimeout(()=>{
         this.setState({ isLoading: false });
       }, 1200);
@@ -38,10 +39,37 @@ class PortFolio extends Component{
           { this.state.isLoading ?
             <Loading />
             :
+            <div>
+            
+            // nav bard
 
+  <div className="menu" >
+    <span className="menu-circle"></span>
+    <a className="menu-link" 
+       onClick={(e) => {
+          e.preventDefault();
+          $(".menu").toggleClass("open");
+          $(".menu-overlay").toggleClass("open"); 
+       }}>
+      <span className="menu-icon">
+        <span className="menu-line menu-line-1"></span>
+        <span className="menu-line menu-line-2"></span>
+        <span className="menu-line menu-line-3"></span>
+      </span>
+    </a>
+  </div>
+
+  <div className="menu-overlay">
+    <a href="/">Home</a>
+    <a href="/#/port">About</a>
+    
+  </div>
+  
+            // 
+            
+            
             <div id="portfolio-container">
               <h1 id="title">My Projects</h1>
-              <a href="/">Back</a>
               <div className="card-container">
                   <div className="card">
                     <div className="card-image"></div>
@@ -108,7 +136,7 @@ class PortFolio extends Component{
                   
               </div>
             </div>
-
+            </div>
 
           
           }
