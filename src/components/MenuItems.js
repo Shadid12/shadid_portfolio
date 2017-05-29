@@ -26,12 +26,14 @@ class MenuItems extends Component{
                     <br />About Me</a></li>
                 <li><a 
                         onMouseOver={ () => { $("#c").addClass("animated jello") } }
-                        onMouseLeave={ () => { $("#c").removeClass("animated jello") } }>
+                        onMouseLeave={ () => { $("#c").removeClass("animated jello") } }
+                        href="#">
                     <img className="aimg" src="http://svgshare.com/i/1jE.svg" id="c" />
                     <br />Contact Me</a></li>
                 <li><a 
                         onMouseOver={ () => { $("#d").addClass("animated jello") } }
-                        onMouseLeave={ () => { $("#d").removeClass("animated jello") } }>
+                        onMouseLeave={ () => { $("#d").removeClass("animated jello") } }
+                        href="#">
                     <img className="aimg" src="http://svgshare.com/i/1jZ.svg" id="d" />
                     <br />My Blog</a></li>
             </ul>

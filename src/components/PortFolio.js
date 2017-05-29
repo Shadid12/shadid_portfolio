@@ -61,7 +61,14 @@ class PortFolio extends Component{
 
   <div className="menu-overlay">
     <a href="/">Home</a>
-    <a href="/#/port">About</a>
+    <a href="/#/about">About</a>
+    <a onClick={ (e) =>  { 
+           e.preventDefault(); 
+           $(".menu").toggleClass("open");
+           $(".menu-overlay").toggleClass("open");
+      } }
+      style={ { 'cursor': 'pointer', 'text-decoration-line' : 'underline'} }
+      >Back</a>
     
   </div>
   
@@ -82,7 +89,7 @@ class PortFolio extends Component{
                     
                     
                     <CoolButton value={ { 'animation': 'thumb', 'id': 'a',
-                                                'icon': 'fa fa-thumbs-up'} }/>
+                                                'icon': 'fa fa-medium'} }/>
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      <CoolButton value={ { 'animation': 'thumb', 'id': 'a1',
                                                 'icon': 'fa fa-github', 
@@ -100,8 +107,11 @@ class PortFolio extends Component{
                       </div>
                     </div>
                     
-                    <CoolButton value={ { 'animation': 'heart', 'id': 'b',
-                                                'icon': 'fa fa-heart'} }/>
+                    <CoolButton value={ { 'animation': 'thumb', 'id': 'b',
+                                                'icon': 'fa fa-medium'} }/>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <CoolButton value={ { 'animation': 'thumb', 'id': 'b1',
+                                                'icon': 'fa fa-github'} }/>
                   </div>
                   <div className="card">
                     <div className="card-image"></div>
@@ -112,8 +122,11 @@ class PortFolio extends Component{
                       </div>
                     </div>
                     
-                    <CoolButton value={ { 'animation': 'forward', 'id': 'c',
+                    <CoolButton value={ { 'animation': 'thumb', 'id': 'c',
                                                 'icon': 'fa fa-medium'} }/>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <CoolButton value={ { 'animation': 'thumb', 'id': 'c1',
+                                                'icon': 'fa fa-github'} }/>
                   </div>
                   
                   <div className="card">
@@ -128,7 +141,7 @@ class PortFolio extends Component{
                     <CoolButton value={ { 'animation': 'thumb', 'id': 'd',
                                                 'icon': 'fa fa-medium'} }/>
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <CoolButton value={ { 'animation': 'heart', 'id': 'd1',
+                    <CoolButton value={ { 'animation': 'thumb', 'id': 'd1',
                                                 'icon': 'fa fa-github'} }/>
                   </div>
                   
