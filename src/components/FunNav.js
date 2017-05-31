@@ -21,7 +21,7 @@ class FunNav extends Component{
             }) => {
               return (
                 <header style={style}>
-                  Hello I am the header her
+                  Hello I am the header here
                 </header>
               )
             }

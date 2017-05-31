@@ -192,7 +192,19 @@ class About extends Component{
     The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
     </p>
     <p className="line-break margin-top-10"></p>
-    <p className="margin-top-10">In 2011, UGG will go back to its roots and focus on bringing the active men that brought the brand to life back with new styles allowing them to love the brand again as well. Partnering with Super Bowl champion and NFL MVP Tom Brady, UGG will invite even more men to feel the love the rest of the world knows so well. UGG will also step into the world of high fashion with UGG Collection. The UGG Collection fuses the timeless craft of Italian shoemaking with the reliable magic of sheepskin, bringing the luxurious feel of UGG to high end fashion. As the love for UGG continues to spread across the world, we have continued to offer new and unexpected ways to experience the brand. The UGG journey continues on and the love for UGG continues to spread.</p>
+    <p className="margin-top-10">
+    The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    There are many variations of passages of Lorem Ipsum available, 
+    but the majority have suffered alteration in some form, by injected humour, 
+    or randomised words which don't look even slightly believable. 
+    If you are going to use a passage of Lorem Ipsum, you need to be sure there 
+    isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum 
+    generators on the Internet tend to repeat predefined chunks as necessary, 
+    making this the first true generator on the Internet. It uses a dictionary 
+    of over 200 Latin words, combined with a handful of model sentence structures, 
+    to generate Lorem Ipsum which looks reasonable. 
+    The generated Lorem Ipsum is therefore always free from repetition,
+    </p>
   </div>
 </section>
 
