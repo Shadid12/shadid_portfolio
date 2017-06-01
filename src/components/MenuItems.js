@@ -33,7 +33,7 @@ class MenuItems extends Component{
                 <li><a 
                         onMouseOver={ () => { $("#d").addClass("animated jello") } }
                         onMouseLeave={ () => { $("#d").removeClass("animated jello") } }
-                        href="#">
+                        href="/#/blog">
                     <img className="aimg" src="http://svgshare.com/i/1jZ.svg" id="d" />
                     <br />My Blog</a></li>
             </ul>

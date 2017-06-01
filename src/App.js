@@ -7,6 +7,7 @@ import Home from './components/Home';
 import PortFolio from './components/PortFolio';
 import About from './components/About';
 import Contact from './components/Contact';
+import Blog from './components/Blog';
 
 // routes
 import { Route, Router, IndexRoute, hashHistory }  from 'react-router';
@@ -22,7 +23,7 @@ class App extends Component {
           </Route>
           <Route path="/about" component={About}>
           </Route>
-          <Route path="/contact" component={Contact}>
+          <Route path="/blog" component={Blog}>
           </Route>
         </Router>
       </div>
